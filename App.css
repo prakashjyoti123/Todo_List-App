@@ -1,0 +1,36 @@
+.App{
+
+    align-items: center;
+
+}
+.App-header{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px +2vmin);
+    color: white;
+}
+.Input-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    align-content: center;
+
+}
+.Input-wrapper input{
+    border-radius: 4%;
+    border: 0;
+    background-color: #ede7fe;
+    width: 160px;
+    padding: 6px;
+    height: 20px;
+
+
+}
+.Wrapper{
+    background: #000;
+    padding: 10px;
+    border-radius: 10%;
+}
